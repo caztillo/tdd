@@ -3,7 +3,7 @@ from django.test import TestCase
 from django.http import HttpRequest
 from lists.views import home_page
 from django.template.loader import render_to_string
-from lists.models import  import Item
+from lists.models import  Item
 
 class ItemModelTest(TestCase):
     def test_saving_and_retrieving_items(self):
@@ -44,5 +44,5 @@ class HomePageTest(TestCase):
             'home.html',
             {'new_item_text': 'A new list item'}
         )
-        self.assertEqual(response.content.decode,expected_html)
+        self.assertEqual(response.content.decode(),expected_html)
 
