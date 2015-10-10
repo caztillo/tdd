@@ -1,3 +1,2 @@
 django==1.7
-pip==3.3
 selenium==2.48.0
