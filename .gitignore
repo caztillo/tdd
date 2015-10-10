@@ -141,3 +141,4 @@ docs/_build/
 target/
 
 db.sqlite3
+.travis.yml
