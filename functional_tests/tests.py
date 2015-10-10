@@ -88,4 +88,4 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertIn('Buy milk', page_text)
 
-        # Satisified, they both go back to sleep
+        # Satisfied, they both go back to sleep
