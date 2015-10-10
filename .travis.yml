@@ -6,9 +6,6 @@ env:
   - DJANGO_VERSION=1.7
 install: 
 - pip install -r requirements.txt
-before_script:
-  python manage.py runserver &
 script:
-  coverage run manage.py tests
-after_script:
-  coveralls
+ - python manage.py test
+ - python functional_tests/tests.py
