@@ -1,2 +1,2 @@
-django==1.7
-selenium==2.48.0
+Django==1.7
+wheel==0.24.0
