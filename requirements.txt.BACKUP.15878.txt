@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-gunicorn==19.3.0
-=======
-Django==1.7
->>>>>>> ef1573c2fc5c2d8670c2ff9e28e68adbaf136200
-wheel==0.24.0
