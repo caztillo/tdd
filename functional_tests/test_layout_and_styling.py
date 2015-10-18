@@ -1,4 +1,4 @@
-rom .base import FunctionalTest
+from .base import FunctionalTest
 
 
 class LayoutAndStylingTest(FunctionalTest):
